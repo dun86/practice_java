@@ -26,7 +26,23 @@ class pr {
     names[0] ="配列の内容の更新";
     
     System.out.println(names[0]);
-
+    
+    // for文を用いて、「私の名前は◯◯です」と出力してください
+    for (int i = 0; i < names.length; i++) {
+      System.out.println("私の名前は" + names[i] + "です");
+    }
+    
+    for (int i = 1; i <= 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
+        }
   }
 }
 
