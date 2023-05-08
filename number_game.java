@@ -30,3 +30,19 @@ public class number_game {
     
     }
 }
+
+
+for (int i = 2; i <=10; i +=2){
+    System.out.println(i);
+}
+
+int count =0;
+int sum=0;
+for(int i =1; 1 <=10; i++){
+    if (1 % 2 ==0){
+        count++
+        sum +=i
+    }
+}
+System.out.println(count)
+System.out.println(sum)
