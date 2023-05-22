@@ -12,13 +12,23 @@ public class Main {
 
     System.out.println("偶数の個数は" + count + "個です。");
     System.out.println("偶数の合計は" + sum + "です。");
-    
-    
+
+
     for(int i = 1; i <= 10; i++) {
       System.out.print(i);
       if(i != 10) {
         System.out.print(",");
+
+
       }
     }
+
+    int n = 10;
+
+    for (int i = 1; i <= n; i++) {
+      sum += i;
+    }
+
+    System.out.println("1から" + n + "までの和: " + sum);
   }
 }
